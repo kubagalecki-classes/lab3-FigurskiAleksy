@@ -1,6 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 language = "bash"
 run = ""
+=======
+language = "cpp"
+run = "chmod +x run.sh; ./run.sh"
+>>>>>>> origin/master
 =======
 language = "cpp"
 run = "chmod +x run.sh; ./run.sh"
