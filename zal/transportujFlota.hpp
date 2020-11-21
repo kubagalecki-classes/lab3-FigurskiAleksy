@@ -23,12 +23,12 @@ unsigned int transportujFlota(unsigned int towar)
 
         towar_ile = towar_ile + statek1->transportuj();
 
-        if (statek1 == dynamic_cast<Zaglowiec>(statek1))
+        if (statek1 == dynamic_cast<Zaglowiec*>(statek1))
         {
           zaglowki++;
         }
         delete statek1;
       }
-      return zaglowki
+      return zaglowki;
     }
 }
